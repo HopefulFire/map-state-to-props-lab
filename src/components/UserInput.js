@@ -27,6 +27,7 @@ class UserInput extends Component {
             type="text"
             id="username"
             onChange={this.handleInputChange}
+            value={this.state.username}
             placeholder="username"
           />
         </p>
@@ -35,6 +36,7 @@ class UserInput extends Component {
             type="text"
             id="hometown"
             onChange={this.handleInputChange}
+            value={this.state.hometown}
             placeholder="hometown"
           />
         </p>
